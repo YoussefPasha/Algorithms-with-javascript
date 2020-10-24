@@ -44,6 +44,15 @@ function countUpAndDown(n) {
   // time calculate 6*n + 2
 }
 
+function printAllPairs(n) {
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
+      console.log(i, j);
+    }
+  }
+  // 👍👍 O(n^2) like exponential carve
+}
+
 function TestPerformance2() {
   let T1 = performance.now();
   countUpAndDown(10000);
