@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background: yellowgreen;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#Run button {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  font: inherit;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: green;
+  color: white;
+  font-size: larger;
+  border: 1px solid #023d6d;
+  padding: 50px;
+  cursor: pointer;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+}
+#Run button:focus {
+  outline: none;
+}
+
+#Run button:hover,
+#Run button:active {
+  background: #084f88;
+  border-color: #084f88;
+}
