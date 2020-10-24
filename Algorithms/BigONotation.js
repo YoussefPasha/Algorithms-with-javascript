@@ -6,12 +6,24 @@ function addUpTo(n) {
     total += i;
   }
   return total;
+  // n additions
+  // n assignments
+  // in (i++) n additions n assignments
+  // (let total = 0) 1 assignment
+  // (let i = 0) 1 assignment
+  // (i<n) n comparisons
+  // time calculate 5n + 2
 }
 
 // Second Solution Counter
 
 function addUpTo2(n) {
   return (n * (n + 1)) / 2;
+  // 3 simple operations 
+  // 1 multiplication
+  // 1 addition
+  // 1 division
+  // time calculate 3
 }
 
 function TestPerformance() {
